@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+
+
+    <!-- boton para retroceder -->
+    <!-- TIENES PROHIBIDO ELIMINAR O MODIFICAR EL -->
+    <!-- ANDROID:ID -->
+    <!-- TIENES PROHIBIDO ELIMINAR LOS "APP" -->
+    <!-- SON 3, PUEDES MODIFICARLOS PARA  -->
+    <!-- TRABJARLOS PERO NO ELIMINARLOS -->
+    <Button
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        android:id="@+id/BackIn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="0.496"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="617dp" />
+    <!-- boton para continuar -->
+    <!-- TIENES PROHIBIDO ELIMINAR O MODIFICAR EL -->
+    <!-- ANDROID:ID -->
+    <!-- TIENES PROHIBIDO ELIMINAR LOS "APP" -->
+    <!-- SON 3, PUEDES MODIFICARLOS PARA  -->
+    <!-- TRABJARLOS PERO NO ELIMINARLOS -->
+    <Button
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/EnterIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="607dp" />
+    <!-- este es el input de el usuario -->
+    <!-- TIENES PROHIBIDO ELIMINAR O MODIFICAR EL -->
+    <!-- ANDROID:ID -->
+    <!-- TIENES PROHIBIDO ELIMINAR LOS "APP" -->
+    <!-- SON 3, PUEDES MODIFICARLOS PARA  -->
+    <!-- TRABJARLOS PERO NO ELIMINARLOS -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        tools:layout_editor_absoluteX="50dp"
+        android:id="@+id/UserIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="400dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:inputType="text"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+
+            android:hint="hint" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <!-- este es el input de la contraseña -->
+    <!-- TIENES PROHIBIDO ELIMINAR O MODIFICAR EL -->
+    <!-- ANDROID:ID -->
+    <!-- TIENES PROHIBIDO ELIMINAR LOS "APP" -->
+    <!-- SON 3, PUEDES MODIFICARLOS PARA  -->
+    <!-- TRABJARLOS PERO NO ELIMINARLOS -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        android:id="@+id/PasswordIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="306dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="hint" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "717453480831",
+    "project_id": "paper-tec",
+    "storage_bucket": "paper-tec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717453480831:android:f9c253fd8c9967525d004a",
+        "android_client_info": {
+          "package_name": "com.example.papper_tec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717453480831-6ljdeqd6uqu68i3bqiu2o9t0ot0aan8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcFn_xDAoSqktH2R6C5XG2WJIQJi3xFkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717453480831-6ljdeqd6uqu68i3bqiu2o9t0ot0aan8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717453480831:android:0b11af8b0008e70d5d004a",
+        "android_client_info": {
+          "package_name": "com.example.pappertec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717453480831-6ljdeqd6uqu68i3bqiu2o9t0ot0aan8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcFn_xDAoSqktH2R6C5XG2WJIQJi3xFkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717453480831-6ljdeqd6uqu68i3bqiu2o9t0ot0aan8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
